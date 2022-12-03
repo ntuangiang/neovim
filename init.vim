@@ -49,8 +49,6 @@ Plug 'dense-analysis/ale'
 Plug 'Yggdroot/indentLine'
 Plug 'editor-bootstr.configrap-updater'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
-Plug 'altercation/vim-colors-solarized'
-Plug 'tribela/vim-transparent'
 
 
 if isdirectory('/usr/local/opt/fzf')
@@ -143,7 +141,7 @@ set ruler
 set number
 
 let no_buffers_menu=1
-colorscheme solarized
+#colorscheme solarized
 
 
 " Better command line completion 
