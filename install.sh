@@ -19,6 +19,7 @@ fi
 
 if [[ "$OSTYPE" =~ ^linux ]] | [[ "$OSTYPE" =~ ^darwin ]]; then
     cp $CWD/config/init.vim ~/.config/nvim/init.vim
+    cp $CWD/config/local_coc.vim ~/.config/nvim/local_coc.vim
     cp $CWD/config/local_init.vim ~/.config/nvim/local_init.vim
     cp $CWD/config/local_bundles.vim ~/.config/nvim/local_bundles.vim
 fi
