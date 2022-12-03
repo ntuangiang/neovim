@@ -22,7 +22,7 @@ let g:yats_host_keyword = 1
 " Enable blinking together with different cursor shapes for insert/command mode, and cursor highlighting:
 au VimEnter,VimResume * set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 
-if filereadable(expand("~/AppData/Local/nvim/local_coc.vim"))
-  source ~/AppData/Local/nvim/local_coc.vim
+if filereadable(expand("~/.config/nvim/local_coc.vim"))
+  source ~/.config/nvim/local_coc.vim
 endif
 
