@@ -47,7 +47,6 @@ Plug 'Raimondi/delimitMate'
 Plug 'majutsushi/tagbar'
 Plug 'dense-analysis/ale'
 Plug 'Yggdroot/indentLine'
-Plug 'editor-bootstr.configrap-updater'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
 
 
