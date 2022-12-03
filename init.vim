@@ -141,7 +141,7 @@ set ruler
 set number
 
 let no_buffers_menu=1
-#colorscheme solarized
+" colorscheme solarized
 
 
 " Better command line completion 
